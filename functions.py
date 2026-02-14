@@ -31,4 +31,7 @@ help(Dosomething)
 A function which call itself is known as recursive function and the process
 is known as recursion
 It follow divide and conqure rule
+It is used for its problem solving ability
+It take more time and space
+A we know that it executes in stack mememory if that has less space then it cause error
 '''
