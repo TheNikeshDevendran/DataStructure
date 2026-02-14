@@ -34,4 +34,24 @@ It follow divide and conqure rule
 It is used for its problem solving ability
 It take more time and space
 A we know that it executes in stack mememory if that has less space then it cause error
+
+Instead of recursion we can use Bactracking(dynamic programming approach)
+which is better that recursion
 '''
+
+def Series_of_Num(n):
+    if n==0:
+        return
+    Series_of_Num(n-1)
+    print(n)
+
+# Series_of_Num(5)
+
+
+def Factorial(n):
+    if n==0:
+        return 
+    Factorial(n*(n-1))
+    print(n)
+
+Factorial(5)
