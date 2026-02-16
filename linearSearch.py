@@ -17,3 +17,9 @@ if flag==1:
 else:
     print('Element Not Found')
  
+
+''' time complexity
+1.Best case O(1)
+2.Average Case O(n)
+3.Worst Case O(n)
+'''
