@@ -26,3 +26,4 @@ for index in range(0,len(li)):
 
 for ele in li:
     print(ele)
+
