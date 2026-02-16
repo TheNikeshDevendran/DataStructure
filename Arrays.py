@@ -15,5 +15,6 @@ arr.remove(20)
 # if i am trying to find a value index which is not in the list then i will raise error
 arr.index(20)
 
+# extend will merge two list
 arr.extend([1,2])
 print(arr)
