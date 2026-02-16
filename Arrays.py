@@ -12,6 +12,8 @@ arr.pop(100)
 arr.remove(20)
 
 # index will provide index of particular value
+# if i am trying to find a value index which is not in the list then i will raise error
 arr.index(20)
 
+arr.extend([1,2])
 print(arr)
