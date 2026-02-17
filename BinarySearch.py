@@ -27,8 +27,20 @@ while(low<=high):
         high=mid-1
     
 
-
 if flag==1:
     print('element found')
 else:
     print('element not found')
+
+'''
+Advantages:
+very fast as compared to linear search
+It reduce search Space by half in every step
+it has time complexity O(log n)
+It work effectivel in Sorted data
+
+Disadvantages:
+Work only in sorted data
+but sorting the data takes extra time
+not suitable for linked list
+'''
