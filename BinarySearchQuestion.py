@@ -34,35 +34,37 @@ ex:[5,7,7,10,11]
 target=7
 Start_end_positon[1,2]
 ''' 
-arr=[5,6,7,7,7,8,10]
-target=0
-start_end_position=[-1,-1]
-low=0
-high=len(arr)-1
-while(low<=high):
-    mid=(high+low)//2
-    if target==arr[mid]:
-        start_end_position[0]=mid
-        high=mid-1
+# arr=[5,6,7,7,7,8,10]
+# target=0
+# start_end_position=[-1,-1]
+# low=0
+# high=len(arr)-1
+# while(low<=high):
+#     mid=(high+low)//2
+#     if target==arr[mid]:
+#         start_end_position[0]=mid
+#         high=mid-1
 
-    elif target>arr[mid]:
-        low=mid+1
-    else:
-        high=mid-1
+#     elif target>arr[mid]:
+#         low=mid+1
+#     else:
+#         high=mid-1
 
-# -----------------------------------
+# # -----------------------------------
 
-low=0
-high=len(arr)-1
-while(low<=high):
-    mid=(high+low)//2
-    if target==arr[mid]:
-        start_end_position[1]=mid
-        low=mid+1
+# low=0
+# high=len(arr)-1
+# while(low<=high):
+#     mid=(high+low)//2
+#     if target==arr[mid]:
+#         start_end_position[1]=mid
+#         low=mid+1
 
-    elif target>arr[mid]:
-        low=mid+1
-    else:
-        high=mid-1
+#     elif target>arr[mid]:
+#         low=mid+1
+#     else:
+#         high=mid-1
 
-print(start_end_position)
+# print(start_end_position)
+
+# ---------------
