@@ -2,10 +2,12 @@
 Here we have  a linked list which contain a binary values 
 so we need to get the decimal values out of it 
 '''
+
 class Node():
     def __init__(self,data):
         self.data=data
         self.next=None
+
 
 class LinkedList():
     def __init__(self):
